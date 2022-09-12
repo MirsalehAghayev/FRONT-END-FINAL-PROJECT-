@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRONT-END FINAL PROJECT</title>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> KitabDükanı </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="axtarış edin..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+                 <a href="./kitablar/index.html" class="fas fa-shopping-cart"></a>
+            <!-- <div id="login-btn" class="fas fa-user"></div> -->
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+           
+            <a href="#featured">Kitablar</a>
+            <a href="./login.html">Daxil olun</a>
+            <!-- <a href="#">Rəylər</a> -->
+       
+        </nav>
+    </div>
+
+</header>
+
+<nav class="bottom-navbar">
+   
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>d
+
+    <form action="">
+        <h3>Daxil olun</h3>
+        <span>İstifadəçi adı</span>
+        <input type="email" name="" class="box" placeholder="E-poçtunuzu daxil edin" id="">
+        <span>Parol</span>
+        <input type="password" name="" class="box" placeholder="Şifrənizi daxil edin" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> Məni xatırla</label>
+        </div>
+        <input type="submit" value="Daxil olun" class="btn">
+        <p>Parolu unutmusunuz? <a href="#">Bura basın</a></p>
+        <p>Hesabınız yoxdur? <a href="#">Hesab yaradın</a></p>
+    </form>
+
+</div>
+
+
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <!-- <h3>50%-ə qədər endirim</h3> -->
+            <p>Bizi seçməklə siz Azərbaycanın və dünyanın istənilən nöqtəsinə kitab sifariş edə bilərsiz. Fəaliyyətə başladığımız gündən bütün kitabları oxuculara azı 50% endirimlə təklif edirik. Ölkədəki bütün nəşriyyatlarla əməkdaşlıqla yanaşı, xaricdən də kitabların gətirlilməsi və çatdırılması xidəməti mövcuddur. Bizi seçməklə siz həm kitablar, həm yazarlar, həm də əsərlər haqqında dolğun məlumata sahib ola bilərsiz.</p>
+            <a href="./kitablar/index.html" class="btn">İndi alış-veriş edin</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="https://static.insales-cdn.com/images/products/1/7128/263658456/thumb.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://static.insales-cdn.com/files/1/4253/9851037/original/e7a278bffdad39b1ea819714dbf488dc.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="http://blog.unimall.az/wp-content/uploads/2018/03/qisas-ilahesi.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://unimall.az/images/detailed/337/Jo_Nesbo_Xilaskar_Esas.png" alt=""></a>
+              
+                <a href="#" class="swiper-slide"><img src="https://www.ceylanmumoglu.com/image/alatoran.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="https://unimall.az/images/detailed/329/zamanin-tarixi.png" alt=""></a>
+            </div>
+ 
+        </div>
+
+    </div>
+
+</section>
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Kitablar</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                   
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://static.insales-cdn.com/images/products/1/7128/263658456/thumb.jpg
+                    " alt="">
+                </div>
+                <div class="content">
+                    <!-- <h3>Kitablar</h3> -->
+                    <div class="price">₼19.99 <span>₼38.99</span></div>
+                    <a href="#" class="btn">səbətə əlavə et</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                 
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://static.insales-cdn.com/files/1/4253/9851037/original/e7a278bffdad39b1ea819714dbf488dc.png
+                    " alt="">
+                </div>
+                <div class="content">
+                    
+                    <div class="price">₼18.99 <span>₼36.99</span></div>
+                    <a href="#" class="btn">səbətə əlavə et</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                  
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="http://blog.unimall.az/wp-content/uploads/2018/03/qisas-ilahesi.jpg
+                    " alt="">
+                </div>
+                <div class="content">
+                   
+                    <div class="price">₼27.99 <span>₼54.99</span></div>
+                    <a href="#" class="btn">səbətə əlavə et</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                  
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://unimall.az/images/detailed/337/Jo_Nesbo_Xilaskar_Esas.png
+                    " alt="">
+                </div>
+                <div class="content">
+                 
+                    <div class="price">₼20.99 <span>₼40.99</span></div>
+                    <a href="#" class="btn">səbətə əlavə et</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                  
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://static.insales-cdn.com/files/1/5920/11024160/original/1cff75e37adaf7e1c9900929e95aa28f_728cfbcf73bbea3b8bd3e5c5156f6adb.jpg
+                    " alt="">
+                </div>
+                <div class="content">
+               
+                    <div class="price">₼17.99 <span>₼34.99</span></div>
+                    <a href="#" class="btn">səbətə əlavə et</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                 
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://unimall.az/images/detailed/329/zamanin-tarixi.png
+                    " alt="">
+                </div>
+                <div class="content">
+                   
+                    <div class="price">₼19.99 <span>₼38.99</span></div>
+                    <a href="#" class="btn">səbətə əlavə et</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                 
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://assets1.bmstatic.com/assets/books-covers/3e/fd/pxNidhCi-ipad.jpg?height=352" alt="">
+                </div>
+                <div class="content">
+                    
+                    <div class="price">₼32.99 <span>₼64.99</span></div>
+                    <a href="#" class="btn">səbətə əlavə et</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                   
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://www.ceylanmumoglu.com/image/alatoran.jpg" alt="">
+                </div>
+                <div class="content">
+                 
+                    <div class="price">₼24.99 <span>₼48.99</span></div>
+                    <a href="#" class="btn">səbətə əlavə et</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                  
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="http://bizplus.az/wp-content/uploads/2017/02/Napoleon-Hill-Zengillik-Esas-2-685x1024.jpg" alt="">
+                </div>
+                <div class="content">
+                   
+                    <div class="price">₼16.99 <span>₼32.99</span></div>
+                    <a href="#" class="btn">səbətə əlavə et</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                  
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="https://static-eu.insales.ru/images/products/1/6069/171071413/5192e57aa65191d690ba28a4e867aeb6.jpg" alt="">
+                </div>
+                <div class="content">
+                   
+                    <div class="price">₼25.99 <span>₼50.99</span></div>
+                    <a href="#" class="btn">səbətə əlavə et</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+
+<section class="newsletter">
+
+    <form action="">
+        <h3>Ən son yeniləmələr üçün abunə olun</h3>
+        <input type="email" name="" placeholder="e-poçtunuzu daxil edin" id="" class="box">
+        <input type="submit" value="Abone ol" class="btn">
+    </form>
+
+</section>
+
+
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Məkanlarımız</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Azerbaijan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Turkey </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Russia </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> France </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Japan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Germany </a>
+        </div>
+
+
+        <div class="box">
+            <h3>Əlaqə məlumatı</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-9999 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> mirsalehagayev52@gmail.com </a>
+            <img src="https://static.vecteezy.com/system/resources/previews/000/376/244/original/vector-seamless-map-of-the-global-network-system.jpg" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="https://www.facebook.com/mirsaleh999" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/mirsaleh999/" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+       
+    </div>
+
+    <div class="credit"> © 2022      <span>Ağayev Mirsaleh  </span> | Bütün hüquqlar qorunur! </div>
+
+</section>
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+<!-- <script src="js/script.js"></script> -->
+
+</body>
+</html>
